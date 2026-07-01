@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your cupcake order board. | Toronto Cupcake</title>
+    <meta name="description" content="A local redesigned cart experience for selected cupcakes, ready to send as an order inquiry.">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="cart-page" id="top">
+    <div class="page-loader" aria-hidden="true">
+      <div class="loader-mark">
+        <img src="assets/images/toronto-cupcake-logo-extracted.webp" alt="">
+        <span class="loader-orbit"></span>
+        <span class="loader-sheen"></span>
+      </div>
+      <span class="loader-label">Toronto Cupcake</span>
+    </div>
+    
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html" aria-label="Toronto Cupcake home">
+        <img src="assets/images/transparent-TO-logo.webp" alt="Toronto Cupcake">
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-toggle>
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Main navigation" data-nav>
+        <a  href="index.html">Home</a><a  href="about.html">About</a><a  href="CorporateEvents.html">Corporate</a><a  href="occasions.html">Occasions</a><a  href="cupcakes.html">Cupcakes</a><a  href="delivery.html">Delivery</a><a  href="givingback.html">Community</a><a  href="faqs.html">FAQs</a><a  href="contact.html">Contact</a>
+      </nav>
+      <a class="cart-link magnetic" href="cart.html" aria-label="View cart"><span data-cart-count>0</span> Cart</a>
+    </header>
+    <div class="ticker" aria-hidden="true">
+      <div>
+        <span>Fresh daily</span><span>GTA delivery</span><span>Corporate logo cupcakes</span><span>Custom occasions</span><span>Pink box energy</span>
+      </div>
+    </div>
+    <main id="main">
+      
+      
+    <section class="page-hero reveal">
+      <div class="hero-copy">
+        <p class="eyebrow">Shopping cart</p>
+        <h1>Your cupcake order board.</h1>
+        <p>A local redesigned cart experience for selected cupcakes, ready to send as an order inquiry.</p>
+        <div class="hero-actions">
+          <a class="button primary magnetic" href="cupcakes.html">Order cupcakes</a>
+          <a class="button secondary magnetic" href="contact.html">Talk to us</a>
+        </div>
+      </div>
+      <div class="poster-stack poster-stack-cutout poster-stack-cutout-wide" data-parallax>
+        <span class="paper-label">order inquiry</span>
+        <img class="poster-main poster-main-cutout" src="assets/images/cupcakes_flavours/assorteddozen-cutout.webp" alt="Your cupcake order board.">
+        
+      </div>
+      <div class="doodle-line" aria-hidden="true"></div>
+    </section>
+      <section class="cart-shell reveal" data-cart-shell>
+        <div class="section-intro">
+          <p class="eyebrow">Local cart</p>
+          <h2>Your shopping cart is empty.</h2>
+          <p>Add cupcakes from the catalogue, then send the list as an order inquiry to Toronto Cupcake.</p>
+        </div>
+        <div class="cart-items" data-cart-items></div>
+        <div class="cart-summary">
+          <p><span>Estimated subtotal</span><strong data-cart-total>$0.00</strong></p>
+          <div class="hero-actions">
+            <a class="button primary magnetic" href="cupcakes.html">Continue shopping</a>
+            <a class="button secondary magnetic" href="mailto:inquiry@torontocupcake.com?subject=Toronto%20Cupcake%20order%20inquiry" data-cart-mail>Send order inquiry</a>
+          </div>
+        </div>
+      </section>
+    
+    </main>
+    
+    <footer class="site-footer">
+      <div>
+        <p class="eyebrow">Toronto Cupcake</p>
+        <h2>Fresh cupcakes, sharp delivery, and custom designs for the GTA.</h2>
+      </div>
+      <div class="footer-grid">
+        <a href="cupcakes.html">Shop cupcakes</a>
+        <a href="CorporateEvents.html">Corporate orders</a>
+        <a href="delivery.html">Delivery</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="tel:+18773349468">+1-877-334-9468</a>
+        <a href="mailto:inquiry@torontocupcake.com">inquiry@torontocupcake.com</a>
+        <a href="https://www.instagram.com/torontocupcake">Instagram</a>
+      </div>
+      <p class="fineprint">Native Toronto Cupcake content and imagery, redesigned as a local static experience. © 2024 Toronto Cupcake.</p>
+    </footer>
+    <div class="product-modal" data-product-modal aria-hidden="true">
+      <button class="modal-close" type="button" data-modal-close aria-label="Close product details">Close</button>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title" data-modal-card></div>
+    </div>
+    <script src="app.js" defer></script>
+  </body>
+</html>
